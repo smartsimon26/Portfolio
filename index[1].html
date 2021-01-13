@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Smart portfolio
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <script src="jfile.js" type="text/javascript"></script>
+    </head>
+    
+
+    <body id="body">
+        <header>
+            <div>
+                <div class="navv">
+                <div><h2 align="center">Themes</h2>
+                <ul id="Themes">
+                 <li><button type="button" onclick="myFunction('dark')" id="dark">D</button>
+                 <li><button type="button" onclick="myFunction('bright')" id="bright">B</button>
+                 <li><button type="button" onclick="myFunction('mild')" id="mild">M</button>
+                </ul>
+                </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#Qualifications">Qualifications</a></li>
+                        <li><a href="#ExtraSkills">Extra Skills</a></li>
+                        <lI><a href="#Inbox">Inbox me</a></lI>
+                    </ul>
+                </div>
+                
+            </div>
+        </header>
+        <div class="top" id="hero">
+            <section class="name fa-pull-left">
+                <h1 id="nm">NDUNG'U SIMON</h1>
+                <h4 id="nm">@smartsimon</h4>
+            </section>
+        </div>
+        <div id="main">
+        <div>
+            <h1>Qualifications</h1>
+            <section id="Qualifications" class="Qualifications-grid">
+                
+                <div class="Qualifications-grid-item BachelorsDegree">
+                    <h2>Bachelor's Degree</h2>
+                    <p>I am pursuing a bachelos Degree in Information Technology in the Machakos University.
+                         I am in my second year of study, and I love the way it's going</p>
+                </div>
+                <div class="Qualifications-grid-item SalesCertificate">
+                    <h2>Sales Certificate</h2>
+                    <p>I hold a certificate in sales from the Nairobi Institute of Business Studies NIBS, one that is recieved after taking Sales and Marketing.
+                        I have worked as a sales person for Venaclipse Technologies and Madison Group Insurance.
+                    </p>
+                </div>
+                <div class="Qualifications-grid-item NetworkingCertificate">
+                    <h2>Networking Certificate</h2>
+                    <p>One of the things I am planning on working on is the HCNA certification. For this i will have to take a course in Networking with Huawei.</p>
+                </div>
+                <div class="Qualifications-grid-item LinuxCertificate">
+                    <h2>Linux Certificate</h2>
+                    <p>I recieved this certificate after participating in the 2018 Linux Boot Camp in Mombasa. 
+                        The seminar was to equip and educate participants with the beginner, intermediate and pro skills in Linux and Linux development
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div>
+            <section id="ExtraSkills">
+                <h1>Extra Skills</h1><br>
+                <h2>Photography</h2><br>
+                <iframe src="photography.html" height="1000px" width="1000px"  style="border:none;"></iframe>
+           </section>
+        </div>
+        <div id="Inbox" >
+            <section>
+                <h1>Inbox</h1>
+                <h2>Catch me on:</h2>
+                <section id="Address" class="Address-grid">
+                
+                    <div class="Address-grid-item">
+                        <i class="icon ion-md-compass"></i>
+                        <h2 id="ttt">Social media</h2>
+                        <p><i class="fa fa-facebook-official" aria-hidden="true">Facebook</i></p>
+                        <p><i class="fa fa-twitter-square" aria-hidden="true">Twitter</i></p>
+                        <p><i class="fa fa-instagram" aria-hidden="true">Instagram</i></p>
+                        <p><i class="fa fa-linkedin" aria-hidden="true">LinkedIn</i></p>
+                        <p><i class="fa fa-whatsapp" aria-hidden="true">WhatsApp</i></p>
+                    </div>
+                    <div class="Address-grid-item">
+                        <h2 id="ttt">Workplace</h2>
+                        <p><i class="fas fa-mail-bulk    ">smartsimon@gmail.com</i></p>
+                        <p><i class="fa fa-whatsapp" aria-hidden="true">WhatsApp</i></p>
+                        <p><i class="fa fa-twitter-square" aria-hidden="true">Twitter</i></p>
+                    </div>
+                    <div class="Address-grid-item">
+                        <h2 id="ttt">Just Here</h2>
+                        <form action="Inbox.php" method="POST">
+                            <label for="email">Provide your email</label>
+                            <input type="email" style="height: 2rem;" placeholder="Enter email" required name="email">
+                            <br><br>
+                            <label for="message">Message</label><br>
+                            <textarea maxlength="200" name="email" placeholder="Enter your message" style="height: 9rem;"></textarea>
+                            <br><br>
+                            <button type="submit" class="btn" onclick="window.alert('Sent Successfully')">Send</button>
+                        </form>
+                    </div>
+                    </section>
+            </section><br><br>
+            <div>
+            <section class="footer">
+                <div>
+                    <p class="copyright">All rights reserved<br><br>smartsimon©<br>
+                    <br>Copyright 2020</p>
+                </div>
+    
+                </div>
+            </section>
+        </div>
+        </div>
+        
+    </body>
+   
+</html>
